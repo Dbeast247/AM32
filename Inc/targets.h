@@ -413,6 +413,18 @@
 /*********************************************************************AT32F421
  * targets*********************************************/
 
+#ifdef NineiMod_80A_V1_4_F421
+//Does not have Current
+#define FIRMWARE_NAME "9iMod 80A V1.4 "
+#define FILE_NAME "9iMod_80A_V1.4_F421"
+#define DEAD_TIME 60
+#define HARDWARE_GROUP_AT_B
+#define HARDWARE_GROUP_AT_045
+#define USE_SERIAL_TELEMETRY
+#define USE_LED_STRIP
+#define WS2812_PIN GPIO_PINS_7
+#endif
+
 #ifdef TBS_6S_4IN1_F421
 #define FIRMWARE_NAME "TBSlu6s4in1"
 #define FILE_NAME "TBS_6S_4IN1_F421"
