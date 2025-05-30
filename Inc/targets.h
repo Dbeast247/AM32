@@ -415,7 +415,7 @@
 
 #ifdef NineiMod_80A_V1_4_F421
 //Does not have Current
-#define FIRMWARE_NAME "9iMod 80A V1.4 "
+#define FIRMWARE_NAME "9iMod 80A1.4"
 #define FILE_NAME "NineiMod_80A_V1_4_F421"
 #define DEAD_TIME 60
 #define HARDWARE_GROUP_AT_B
